@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  app:
+    container_name: scan-app-backend
+    restart: always
+    build: ./api
+    ports:
+      - "3001:3001"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27017:21017"
+
+  react-app:
+    container_name: scan-app-frontend
+    build: ./dashboard
+    ports:
+      - "3000:3000"
+    stdin_open: true

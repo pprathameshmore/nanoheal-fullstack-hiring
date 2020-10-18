@@ -1,6 +1,5 @@
-# Node.js Folder Structure
 
-## Inspired by [Bulletproof Node.js](https://github.com/santiq/bulletproof-nodejs)
+[API Documentation](https://documenter.getpostman.com/view/8028791/TVRrW5EW)
 
 ### Development
 
@@ -13,7 +12,7 @@ npm install
 Then just start the server with
 
 ```
-npm run start
+npm start
 ```
 
 Or start in development using Nodemon

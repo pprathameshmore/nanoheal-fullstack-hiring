@@ -1,5 +1,7 @@
 # Security - Scan Service (Full Stack App)
 
+Deployed app: https://nanoheal-dashboard.herokuapp.com/
+
 ## API Documentation
 
 https://documenter.getpostman.com/view/8028791/TVRrW5EW

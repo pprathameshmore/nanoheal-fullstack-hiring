@@ -232,6 +232,7 @@ export default function ResultForm() {
           label="Position"
           variant="outlined"
           size="medium"
+          type="number"
           className={`${classes.input} ${classes.inputWidth}`}
           onChange={inputPositionHandler}
           required

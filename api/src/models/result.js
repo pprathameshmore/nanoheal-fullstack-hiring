@@ -39,15 +39,15 @@ const resultSchema = new mongoose.Schema({
   findings: [findingSchema],
   queuedAt: {
     type: Date,
-    required: true,
+    default: Date.now(),
   },
   scanningAt: {
     type: Date,
-    required: true,
+    default: Date.now(),
   },
   finishedAt: {
     type: Date,
-    required: true,
+    default: Date.now(),
   },
 });
 
